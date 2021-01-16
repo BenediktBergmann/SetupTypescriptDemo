@@ -1,5 +1,6 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
@@ -33,6 +34,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
+    new ESLintPlugin({fix: true, extensions: ['ts', 'tsx'], lintDirtyModulesOnly: true, failOnError: true}),
   ],
   resolve: {
     extensions: ['.ts', '.js' ],
