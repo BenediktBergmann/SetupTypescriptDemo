@@ -1,10 +1,12 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
   entry: {
-    demo: './src/code/demo.ts'
+    demo: './src/code/demo.ts',
+    reactdemo: './src/code/reactdemo/reactdemo.tsx'
   },
   output: {
     filename: '[name].js',
@@ -33,8 +35,12 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
+    new ESLintPlugin({fix: true, extensions: ['ts', 'tsx'], lintDirtyModulesOnly: true, failOnError: true}),
   ],
   resolve: {
-    extensions: ['.ts', '.js' ],
+    extensions: ['.tsx', '.ts', '.js' ],
+  },
+  optimization: {
+    usedExports:true
   }
 };

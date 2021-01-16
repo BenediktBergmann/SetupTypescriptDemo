@@ -3,7 +3,7 @@ export async function loadRecords(
     query: string,
     maxPageSize?: number,
     errorCallback?: (error: any) => void,
-): Promise<any>{
+): Promise<any> {
     try {
         const result: any = await Xrm.WebApi.online.retrieveMultipleRecords(entityName, query, maxPageSize);
 
