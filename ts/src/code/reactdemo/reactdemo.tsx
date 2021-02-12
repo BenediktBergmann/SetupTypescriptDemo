@@ -11,4 +11,4 @@ class ReactDemo extends React.Component<IReactDemoProps> {
     }
 }
 
-ReactDOM.render(<ReactDemo value="test" />, document.getElementById("reactdemoroot"));
+ReactDOM.render(<ReactDemo value="changed test" />, document.getElementById("reactdemoroot"));
