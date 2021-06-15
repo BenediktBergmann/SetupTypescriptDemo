@@ -1,0 +1,30 @@
+11:49:39	Deploying WebResources
+11:49:39	Using Config 'C:\Private\Community\TSProject\SetupTypescriptDemo\HelperTools\HelperTools'
+11:49:39	Creating Webresource 'js\demo.js' -> 'bebe_/js/demo.js'
+11:49:42	Adding to solution 'SpklDemo'
+11:50:25	Deploying WebResources
+11:50:25	Using Config 'C:\Private\Community\TSProject\SetupTypescriptDemo\HelperTools\HelperTools'
+11:50:25	bebe_/js/demo.js has not changed, skipping...
+11:50:25	Deployed 0 webresource(s)
+11:50:25	Publishing 0 webresources...
+11:50:25	Publish complete.
+11:50:25	Processed 1 section(s)
+11:50:25	Processed 1 config(s)
+11:52:08	Deploying WebResources
+11:52:09	Using Config 'C:\Private\Community\TSProject\SetupTypescriptDemo\HelperTools\HelperTools'
+11:52:09	Creating Webresource 'js\demo.js' -> 'bebe_/js/demo.js'
+11:52:09	Adding to solution 'SpklDemo'
+11:52:10	Deployed 1 webresource(s)
+11:52:10	Publishing 1 webresources...
+11:52:14	Publish complete.
+11:52:14	Processed 1 section(s)
+11:52:14	Processed 1 config(s)
+11:55:09	Deploying WebResources
+11:55:09	Using Config 'C:\Private\Community\TSProject\SetupTypescriptDemo\HelperTools\HelperTools'
+11:55:10	Creating Webresource 'js\demo.js' -> 'bebe_/js/demo.js'
+11:55:10	Adding to solution 'SpklDemo'
+11:55:10	Deployed 1 webresource(s)
+11:55:10	Publishing 1 webresources...
+11:55:11	Publish complete.
+11:55:11	Processed 1 section(s)
+11:55:11	Processed 1 config(s)

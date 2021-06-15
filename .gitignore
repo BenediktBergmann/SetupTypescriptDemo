@@ -1,3 +1,7 @@
 .vs/
 ts/node_modules/
 Webresources/js
+
+bin/
+obj/
+*/packages/
