@@ -1,4 +1,4 @@
-import * as helper from "./utils/helper";
+import * as helper from "../utils/helper";
 
 export async function onLoad(executionContext: Xrm.Events.EventContext): Promise<void> {
     const formContext = executionContext.getFormContext();

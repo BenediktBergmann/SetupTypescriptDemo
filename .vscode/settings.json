@@ -1,5 +1,8 @@
 {
     "eslint.workingDirectories": [
       "ts"
-    ]
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+    }
   }

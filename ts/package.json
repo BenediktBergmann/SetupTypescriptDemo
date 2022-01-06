@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-dev": "webpack --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js",
+    "build": "webpack --config webpack.dev.js",
+    "dist": "webpack --config webpack.prod.js",
     "format": "prettier ./src/code/**/*.ts --write",
     "lint": "eslint ./src/code/**/*.ts --fix"
   },
